@@ -1,34 +1,30 @@
-Bank Marketing Decision Tree Classifier
-📌 Project Overview
+# Bank Marketing Decision Tree Classifier
 
-This project implements a Decision Tree Classifier to predict whether a customer will subscribe to a term deposit based on demographic and behavioral data. The model is trained using the Bank Marketing dataset from the UCI Machine Learning Repository
-.
+## 📌 Project Overview
+This project implements a **Decision Tree Classifier** to predict whether a customer will **subscribe to a term deposit** based on demographic and behavioral data. The model is trained using the **Bank Marketing dataset** from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing).
 
-The purpose of this project is to help banks improve their marketing strategies by targeting potential customers more effectively.
+The goal is to help banks improve marketing strategies by identifying customers likely to subscribe.
 
-🗂 Dataset
+---
 
-Source: UCI Bank Marketing Dataset
+## 🗂 Dataset
+- **Source**: [UCI Bank Marketing Dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing)  
+- **File used**: `bank-full.csv`  
+- **Number of instances**: 45,211  
+- **Features**:
+  - **Demographic**: age, job, marital status, education, etc.  
+  - **Behavioral**: contact method, last contact duration, previous campaigns, etc.
+- **Target variable**: `y` (`yes` → subscribed, `no` → not subscribed)
 
-File used: bank-full.csv
+---
 
-Number of instances: 45,211
+## 🛠 Tech Stack
+- **Python 3.x**  
+- **Libraries**:
+  - `pandas` – Data manipulation  
+  - `scikit-learn` – Machine Learning (Decision Tree, preprocessing, evaluation)  
+  - `matplotlib` – Visualization  
 
-Features:
-
-Demographic: age, job, marital status, education, etc.
-
-Behavioral: contact method, last contact duration, previous campaigns, etc.
-
-Target variable: y (yes → subscribed, no → not subscribed)
-
-🛠 Tech Stack
-
-Python 3.x
-
-Libraries:
-
-pandas – Data manipulation
 📈 Results
 
 Accuracy: Example ~90% (depends on preprocessing)
